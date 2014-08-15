@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255C7211199DF34900070C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255C7210199DF34900070C0D /* Foundation.framework */; };
+		255C7213199DF34900070C0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255C7212199DF34900070C0D /* CoreGraphics.framework */; };
+		255C7215199DF34900070C0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255C7214199DF34900070C0D /* UIKit.framework */; };
+		255C721B199DF34900070C0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 255C7219199DF34900070C0D /* InfoPlist.strings */; };
+		255C721D199DF34900070C0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 255C721C199DF34900070C0D /* main.m */; };
+		255C7221199DF34900070C0D /* PDLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 255C7220199DF34900070C0D /* PDLAppDelegate.m */; };
+		255C7224199DF34900070C0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255C7222199DF34900070C0D /* Main.storyboard */; };
+		255C7227199DF34900070C0D /* PDLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255C7226199DF34900070C0D /* PDLViewController.m */; };
+		255C7229199DF34900070C0D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255C7228199DF34900070C0D /* Images.xcassets */; };
+		255C7230199DF34900070C0D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255C722F199DF34900070C0D /* XCTest.framework */; };
+		255C7231199DF34900070C0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255C7210199DF34900070C0D /* Foundation.framework */; };
+		255C7232199DF34900070C0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255C7214199DF34900070C0D /* UIKit.framework */; };
+		255C723A199DF34A00070C0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 255C7238199DF34A00070C0D /* InfoPlist.strings */; };
+		255C723C199DF34A00070C0D /* ExampleUsingVuforiaSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 255C723B199DF34A00070C0D /* ExampleUsingVuforiaSDKTests.m */; };
+		255C7246199DFCFE00070C0D /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 255C7245199DFCFE00070C0D /* libVuforia.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		255C7233199DF34A00070C0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 255C7205199DF34900070C0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 255C720C199DF34900070C0D;
+			remoteInfo = ExampleUsingVuforiaSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255C720D199DF34900070C0D /* ExampleUsingVuforiaSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleUsingVuforiaSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		255C7210199DF34900070C0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		255C7212199DF34900070C0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		255C7214199DF34900070C0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		255C7218199DF34900070C0D /* ExampleUsingVuforiaSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleUsingVuforiaSDK-Info.plist"; sourceTree = "<group>"; };
+		255C721A199DF34900070C0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		255C721C199DF34900070C0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		255C721E199DF34900070C0D /* ExampleUsingVuforiaSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExampleUsingVuforiaSDK-Prefix.pch"; sourceTree = "<group>"; };
+		255C721F199DF34900070C0D /* PDLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDLAppDelegate.h; sourceTree = "<group>"; };
+		255C7220199DF34900070C0D /* PDLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDLAppDelegate.m; sourceTree = "<group>"; };
+		255C7223199DF34900070C0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		255C7225199DF34900070C0D /* PDLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDLViewController.h; sourceTree = "<group>"; };
+		255C7226199DF34900070C0D /* PDLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDLViewController.m; sourceTree = "<group>"; };
+		255C7228199DF34900070C0D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		255C722E199DF34900070C0D /* ExampleUsingVuforiaSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUsingVuforiaSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		255C722F199DF34900070C0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		255C7237199DF34A00070C0D /* ExampleUsingVuforiaSDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleUsingVuforiaSDKTests-Info.plist"; sourceTree = "<group>"; };
+		255C7239199DF34A00070C0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		255C723B199DF34A00070C0D /* ExampleUsingVuforiaSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleUsingVuforiaSDKTests.m; sourceTree = "<group>"; };
+		255C7245199DFCFE00070C0D /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVuforia.a; sourceTree = "<group>"; };
+		255C724A199E119E00070C0D /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		255C724B199E119E00070C0D /* CameraCalibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCalibration.h; sourceTree = "<group>"; };
+		255C724C199E119E00070C0D /* CameraDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDevice.h; sourceTree = "<group>"; };
+		255C724D199E119E00070C0D /* CylinderTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CylinderTarget.h; sourceTree = "<group>"; };
+		255C724E199E119E00070C0D /* CylinderTargetResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CylinderTargetResult.h; sourceTree = "<group>"; };
+		255C724F199E119E00070C0D /* DataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSet.h; sourceTree = "<group>"; };
+		255C7250199E119E00070C0D /* Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
+		255C7251199E119E00070C0D /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		255C7252199E119E00070C0D /* ImageTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTarget.h; sourceTree = "<group>"; };
+		255C7253199E119E00070C0D /* ImageTargetBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTargetBuilder.h; sourceTree = "<group>"; };
+		255C7254199E119E00070C0D /* ImageTargetResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTargetResult.h; sourceTree = "<group>"; };
+		255C7255199E119E00070C0D /* ImageTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTracker.h; sourceTree = "<group>"; };
+		255C7256199E119E00070C0D /* Marker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Marker.h; sourceTree = "<group>"; };
+		255C7257199E119E00070C0D /* MarkerResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerResult.h; sourceTree = "<group>"; };
+		255C7258199E119E00070C0D /* MarkerTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerTracker.h; sourceTree = "<group>"; };
+		255C7259199E119E00070C0D /* Matrices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrices.h; sourceTree = "<group>"; };
+		255C725A199E119E00070C0D /* MultiTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTarget.h; sourceTree = "<group>"; };
+		255C725B199E119E00070C0D /* MultiTargetResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTargetResult.h; sourceTree = "<group>"; };
+		255C725C199E119E00070C0D /* NonCopyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonCopyable.h; sourceTree = "<group>"; };
+		255C725D199E119E00070C0D /* Obb2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Obb2D.h; sourceTree = "<group>"; };
+		255C725E199E119E00070C0D /* QCAR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCAR.h; sourceTree = "<group>"; };
+		255C725F199E119E00070C0D /* QCAR_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCAR_iOS.h; sourceTree = "<group>"; };
+		255C7260199E119E00070C0D /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		255C7261199E119E00070C0D /* Renderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
+		255C7262199E119E00070C0D /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		255C7263199E119E00070C0D /* System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
+		255C7264199E119E00070C0D /* TargetFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetFinder.h; sourceTree = "<group>"; };
+		255C7265199E119E00070C0D /* TargetSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetSearchResult.h; sourceTree = "<group>"; };
+		255C7266199E119E00070C0D /* TextTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextTracker.h; sourceTree = "<group>"; };
+		255C7267199E119E00070C0D /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		255C7268199E119E00070C0D /* Trackable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trackable.h; sourceTree = "<group>"; };
+		255C7269199E119E00070C0D /* TrackableResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackableResult.h; sourceTree = "<group>"; };
+		255C726A199E119E00070C0D /* TrackableSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackableSource.h; sourceTree = "<group>"; };
+		255C726B199E119E00070C0D /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
+		255C726C199E119E00070C0D /* TrackerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerManager.h; sourceTree = "<group>"; };
+		255C726D199E119E00070C0D /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		255C726E199E119E00070C0D /* UIGLViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGLViewProtocol.h; sourceTree = "<group>"; };
+		255C726F199E119E00070C0D /* UpdateCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateCallback.h; sourceTree = "<group>"; };
+		255C7270199E119E00070C0D /* Vectors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vectors.h; sourceTree = "<group>"; };
+		255C7271199E119E00070C0D /* VideoBackgroundConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoBackgroundConfig.h; sourceTree = "<group>"; };
+		255C7272199E119E00070C0D /* VideoBackgroundTextureInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoBackgroundTextureInfo.h; sourceTree = "<group>"; };
+		255C7273199E119E00070C0D /* VideoMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoMode.h; sourceTree = "<group>"; };
+		255C7274199E119E00070C0D /* VirtualButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualButton.h; sourceTree = "<group>"; };
+		255C7275199E119E00070C0D /* VirtualButtonResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualButtonResult.h; sourceTree = "<group>"; };
+		255C7276199E119E00070C0D /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		255C7277199E119E00070C0D /* WordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordList.h; sourceTree = "<group>"; };
+		255C7278199E119E00070C0D /* WordResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordResult.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		255C720A199DF34900070C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C7213199DF34900070C0D /* CoreGraphics.framework in Frameworks */,
+				255C7215199DF34900070C0D /* UIKit.framework in Frameworks */,
+				255C7246199DFCFE00070C0D /* libVuforia.a in Frameworks */,
+				255C7211199DF34900070C0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C722B199DF34900070C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C7230199DF34900070C0D /* XCTest.framework in Frameworks */,
+				255C7232199DF34900070C0D /* UIKit.framework in Frameworks */,
+				255C7231199DF34900070C0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		255C7204199DF34900070C0D = {
+			isa = PBXGroup;
+			children = (
+				255C7216199DF34900070C0D /* ExampleUsingVuforiaSDK */,
+				255C7235199DF34A00070C0D /* ExampleUsingVuforiaSDKTests */,
+				255C720F199DF34900070C0D /* Frameworks */,
+				255C720E199DF34900070C0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		255C720E199DF34900070C0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				255C720D199DF34900070C0D /* ExampleUsingVuforiaSDK.app */,
+				255C722E199DF34900070C0D /* ExampleUsingVuforiaSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		255C720F199DF34900070C0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				255C7245199DFCFE00070C0D /* libVuforia.a */,
+				255C7210199DF34900070C0D /* Foundation.framework */,
+				255C7212199DF34900070C0D /* CoreGraphics.framework */,
+				255C7214199DF34900070C0D /* UIKit.framework */,
+				255C722F199DF34900070C0D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		255C7216199DF34900070C0D /* ExampleUsingVuforiaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				255C7249199E119E00070C0D /* QCAR */,
+				255C721F199DF34900070C0D /* PDLAppDelegate.h */,
+				255C7220199DF34900070C0D /* PDLAppDelegate.m */,
+				255C7222199DF34900070C0D /* Main.storyboard */,
+				255C7225199DF34900070C0D /* PDLViewController.h */,
+				255C7226199DF34900070C0D /* PDLViewController.m */,
+				255C7228199DF34900070C0D /* Images.xcassets */,
+				255C7217199DF34900070C0D /* Supporting Files */,
+			);
+			path = ExampleUsingVuforiaSDK;
+			sourceTree = "<group>";
+		};
+		255C7217199DF34900070C0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255C7218199DF34900070C0D /* ExampleUsingVuforiaSDK-Info.plist */,
+				255C7219199DF34900070C0D /* InfoPlist.strings */,
+				255C721C199DF34900070C0D /* main.m */,
+				255C721E199DF34900070C0D /* ExampleUsingVuforiaSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		255C7235199DF34A00070C0D /* ExampleUsingVuforiaSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				255C723B199DF34A00070C0D /* ExampleUsingVuforiaSDKTests.m */,
+				255C7236199DF34A00070C0D /* Supporting Files */,
+			);
+			path = ExampleUsingVuforiaSDKTests;
+			sourceTree = "<group>";
+		};
+		255C7236199DF34A00070C0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				255C7237199DF34A00070C0D /* ExampleUsingVuforiaSDKTests-Info.plist */,
+				255C7238199DF34A00070C0D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		255C7249199E119E00070C0D /* QCAR */ = {
+			isa = PBXGroup;
+			children = (
+				255C724A199E119E00070C0D /* Area.h */,
+				255C724B199E119E00070C0D /* CameraCalibration.h */,
+				255C724C199E119E00070C0D /* CameraDevice.h */,
+				255C724D199E119E00070C0D /* CylinderTarget.h */,
+				255C724E199E119E00070C0D /* CylinderTargetResult.h */,
+				255C724F199E119E00070C0D /* DataSet.h */,
+				255C7250199E119E00070C0D /* Frame.h */,
+				255C7251199E119E00070C0D /* Image.h */,
+				255C7252199E119E00070C0D /* ImageTarget.h */,
+				255C7253199E119E00070C0D /* ImageTargetBuilder.h */,
+				255C7254199E119E00070C0D /* ImageTargetResult.h */,
+				255C7255199E119E00070C0D /* ImageTracker.h */,
+				255C7256199E119E00070C0D /* Marker.h */,
+				255C7257199E119E00070C0D /* MarkerResult.h */,
+				255C7258199E119E00070C0D /* MarkerTracker.h */,
+				255C7259199E119E00070C0D /* Matrices.h */,
+				255C725A199E119E00070C0D /* MultiTarget.h */,
+				255C725B199E119E00070C0D /* MultiTargetResult.h */,
+				255C725C199E119E00070C0D /* NonCopyable.h */,
+				255C725D199E119E00070C0D /* Obb2D.h */,
+				255C725E199E119E00070C0D /* QCAR.h */,
+				255C725F199E119E00070C0D /* QCAR_iOS.h */,
+				255C7260199E119E00070C0D /* Rectangle.h */,
+				255C7261199E119E00070C0D /* Renderer.h */,
+				255C7262199E119E00070C0D /* State.h */,
+				255C7263199E119E00070C0D /* System.h */,
+				255C7264199E119E00070C0D /* TargetFinder.h */,
+				255C7265199E119E00070C0D /* TargetSearchResult.h */,
+				255C7266199E119E00070C0D /* TextTracker.h */,
+				255C7267199E119E00070C0D /* Tool.h */,
+				255C7268199E119E00070C0D /* Trackable.h */,
+				255C7269199E119E00070C0D /* TrackableResult.h */,
+				255C726A199E119E00070C0D /* TrackableSource.h */,
+				255C726B199E119E00070C0D /* Tracker.h */,
+				255C726C199E119E00070C0D /* TrackerManager.h */,
+				255C726D199E119E00070C0D /* Type.h */,
+				255C726E199E119E00070C0D /* UIGLViewProtocol.h */,
+				255C726F199E119E00070C0D /* UpdateCallback.h */,
+				255C7270199E119E00070C0D /* Vectors.h */,
+				255C7271199E119E00070C0D /* VideoBackgroundConfig.h */,
+				255C7272199E119E00070C0D /* VideoBackgroundTextureInfo.h */,
+				255C7273199E119E00070C0D /* VideoMode.h */,
+				255C7274199E119E00070C0D /* VirtualButton.h */,
+				255C7275199E119E00070C0D /* VirtualButtonResult.h */,
+				255C7276199E119E00070C0D /* Word.h */,
+				255C7277199E119E00070C0D /* WordList.h */,
+				255C7278199E119E00070C0D /* WordResult.h */,
+			);
+			path = QCAR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		255C720C199DF34900070C0D /* ExampleUsingVuforiaSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255C723F199DF34A00070C0D /* Build configuration list for PBXNativeTarget "ExampleUsingVuforiaSDK" */;
+			buildPhases = (
+				255C7209199DF34900070C0D /* Sources */,
+				255C720A199DF34900070C0D /* Frameworks */,
+				255C720B199DF34900070C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleUsingVuforiaSDK;
+			productName = ExampleUsingVuforiaSDK;
+			productReference = 255C720D199DF34900070C0D /* ExampleUsingVuforiaSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		255C722D199DF34900070C0D /* ExampleUsingVuforiaSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 255C7242199DF34A00070C0D /* Build configuration list for PBXNativeTarget "ExampleUsingVuforiaSDKTests" */;
+			buildPhases = (
+				255C722A199DF34900070C0D /* Sources */,
+				255C722B199DF34900070C0D /* Frameworks */,
+				255C722C199DF34900070C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				255C7234199DF34A00070C0D /* PBXTargetDependency */,
+			);
+			name = ExampleUsingVuforiaSDKTests;
+			productName = ExampleUsingVuforiaSDKTests;
+			productReference = 255C722E199DF34900070C0D /* ExampleUsingVuforiaSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		255C7205199DF34900070C0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PDL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LTT;
+				TargetAttributes = {
+					255C722D199DF34900070C0D = {
+						TestTargetID = 255C720C199DF34900070C0D;
+					};
+				};
+			};
+			buildConfigurationList = 255C7208199DF34900070C0D /* Build configuration list for PBXProject "ExampleUsingVuforiaSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 255C7204199DF34900070C0D;
+			productRefGroup = 255C720E199DF34900070C0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				255C720C199DF34900070C0D /* ExampleUsingVuforiaSDK */,
+				255C722D199DF34900070C0D /* ExampleUsingVuforiaSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255C720B199DF34900070C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C7229199DF34900070C0D /* Images.xcassets in Resources */,
+				255C721B199DF34900070C0D /* InfoPlist.strings in Resources */,
+				255C7224199DF34900070C0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C722C199DF34900070C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C723A199DF34A00070C0D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		255C7209199DF34900070C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C721D199DF34900070C0D /* main.m in Sources */,
+				255C7221199DF34900070C0D /* PDLAppDelegate.m in Sources */,
+				255C7227199DF34900070C0D /* PDLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255C722A199DF34900070C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C723C199DF34A00070C0D /* ExampleUsingVuforiaSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		255C7234199DF34A00070C0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 255C720C199DF34900070C0D /* ExampleUsingVuforiaSDK */;
+			targetProxy = 255C7233199DF34A00070C0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		255C7219199DF34900070C0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255C721A199DF34900070C0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		255C7222199DF34900070C0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255C7223199DF34900070C0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		255C7238199DF34A00070C0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				255C7239199DF34A00070C0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		255C723D199DF34A00070C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		255C723E199DF34A00070C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		255C7240199DF34A00070C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleUsingVuforiaSDK/ExampleUsingVuforiaSDK-Prefix.pch";
+				INFOPLIST_FILE = "ExampleUsingVuforiaSDK/ExampleUsingVuforiaSDK-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ExampleUsingVuforiaSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		255C7241199DF34A00070C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleUsingVuforiaSDK/ExampleUsingVuforiaSDK-Prefix.pch";
+				INFOPLIST_FILE = "ExampleUsingVuforiaSDK/ExampleUsingVuforiaSDK-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ExampleUsingVuforiaSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		255C7243199DF34A00070C0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExampleUsingVuforiaSDK.app/ExampleUsingVuforiaSDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleUsingVuforiaSDK/ExampleUsingVuforiaSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ExampleUsingVuforiaSDKTests/ExampleUsingVuforiaSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		255C7244199DF34A00070C0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExampleUsingVuforiaSDK.app/ExampleUsingVuforiaSDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExampleUsingVuforiaSDK/ExampleUsingVuforiaSDK-Prefix.pch";
+				INFOPLIST_FILE = "ExampleUsingVuforiaSDKTests/ExampleUsingVuforiaSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		255C7208199DF34900070C0D /* Build configuration list for PBXProject "ExampleUsingVuforiaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255C723D199DF34A00070C0D /* Debug */,
+				255C723E199DF34A00070C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255C723F199DF34A00070C0D /* Build configuration list for PBXNativeTarget "ExampleUsingVuforiaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255C7240199DF34A00070C0D /* Debug */,
+				255C7241199DF34A00070C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		255C7242199DF34A00070C0D /* Build configuration list for PBXNativeTarget "ExampleUsingVuforiaSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255C7243199DF34A00070C0D /* Debug */,
+				255C7244199DF34A00070C0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 255C7205199DF34900070C0D /* Project object */;
+}
